@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		D7BA7D76DAB5DD13389D6332 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Qmake";
+			neededFileNames = (
+				);
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/juanmanuelmartinezromero/Documents/Universidad\ Nacional\ De\ Colombia/Google\ Drive/Ensimag/Graphique\ 3D/TP3\ -f\ \'cg3D.pbproj/qt_makeqmake.mak\'";
+		};
+		FD8F5E396A7F54FAD85BBCCE = {
+			isa = PBXFileReference;
+			name = "cube.cpp";
+			path = "cube.cpp";
+			refType = 4;
+		};
+		A065A5590CA74531B3084830 = {
+			fileRef = "FD8F5E396A7F54FAD85BBCCE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E4F161BEA6186350B9A58328 = {
+			isa = PBXFileReference;
+			name = "cylinder.cpp";
+			path = "cylinder.cpp";
+			refType = 4;
+		};
+		AFE57829E6A9D7746D3D7308 = {
+			fileRef = "E4F161BEA6186350B9A58328";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B1E618568BC199B9B3438B56 = {
+			isa = PBXFileReference;
+			name = "human.cpp";
+			path = "human.cpp";
+			refType = 4;
+		};
+		C22F12D9E6F79DB4D9F4B194 = {
+			fileRef = "B1E618568BC199B9B3438B56";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		118FCBAABA162BA17933C789 = {
+			isa = PBXFileReference;
+			name = "main.cpp";
+			path = "main.cpp";
+			refType = 4;
+		};
+		2B093CA6F071B023A473CED0 = {
+			fileRef = "118FCBAABA162BA17933C789";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1952448F282F4A6913CBD05E = {
+			isa = PBXFileReference;
+			name = "viewer.cpp";
+			path = "viewer.cpp";
+			refType = 4;
+		};
+		6E7A9BC2D671798C20EB5980 = {
+			fileRef = "1952448F282F4A6913CBD05E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4744C858C28D074845FEEEAE = {
+			isa = PBXFileReference;
+			name = "/Users/juanmanuelmartinezromero/Library/Frameworks/QGLViewer.framework/Versions/2/Headers/qglviewer.icns";
+			path = "/Users/juanmanuelmartinezromero/Library/Frameworks/QGLViewer.framework/Versions/2/Headers/qglviewer.icns";
+			refType = 0;
+		};
+		0F7C20FE5407FD847FD448DE = {
+			fileRef = "4744C858C28D074845FEEEAE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DD00A5121E451C85FE0A1450 = {
+			isa = PBXFileReference;
+			name = "cube.h";
+			path = "cube.h";
+			refType = 4;
+		};
+		113D44AE40C95B92514AF4D8 = {
+			isa = PBXFileReference;
+			name = "cylinder.h";
+			path = "cylinder.h";
+			refType = 4;
+		};
+		839DFEBCC4E3A6BFB0120D5B = {
+			isa = PBXFileReference;
+			name = "human.h";
+			path = "human.h";
+			refType = 4;
+		};
+		63F6105E68416AB597D8B0A2 = {
+			isa = PBXFileReference;
+			name = "renderable.h";
+			path = "renderable.h";
+			refType = 4;
+		};
+		0CBDAE6F2BDB7DE9AB2994C7 = {
+			isa = PBXFileReference;
+			name = "viewer.h";
+			path = "viewer.h";
+			refType = 4;
+		};
+		C40C46185ABFF20CBEFF709B = {
+			isa = PBXFileReference;
+			name = "cg3D.pro";
+			path = "cg3D.pro";
+			refType = 4;
+		};
+		883D7615C4D2DE3FA1218F12 = {
+			isa = PBXGroup;
+			children = (
+				"DD00A5121E451C85FE0A1450",
+				"113D44AE40C95B92514AF4D8",
+				"839DFEBCC4E3A6BFB0120D5B",
+				"63F6105E68416AB597D8B0A2",
+				"0CBDAE6F2BDB7DE9AB2994C7");
+			name = "Headers";
+			refType = 4;
+		};
+		FB61758D0F0FDA4BA867C3D5 = {
+			isa = PBXGroup;
+			children = (
+				"FD8F5E396A7F54FAD85BBCCE",
+				"E4F161BEA6186350B9A58328",
+				"B1E618568BC199B9B3438B56",
+				"118FCBAABA162BA17933C789",
+				"1952448F282F4A6913CBD05E",
+				"4744C858C28D074845FEEEAE");
+			name = "Sources";
+			refType = 4;
+		};
+		7CABE3C80E79AD2B307756D2 = {
+			isa = PBXGroup;
+			children = (
+				"C40C46185ABFF20CBEFF709B");
+			name = "Sources [qmake]";
+			refType = 4;
+		};
+		A0A52A2ADF7A1E2A99738674 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			generatedFileNames = (
+				"A065A5590CA74531B3084830",
+				"AFE57829E6A9D7746D3D7308",
+				"C22F12D9E6F79DB4D9F4B194",
+				"2B093CA6F071B023A473CED0",
+				"6E7A9BC2D671798C20EB5980");
+			isa = PBXShellScriptBuildPhase;
+			name = "Qt Preprocessors";
+			neededFileNames = (
+				"A065A5590CA74531B3084830",
+				"AFE57829E6A9D7746D3D7308",
+				"C22F12D9E6F79DB4D9F4B194",
+				"2B093CA6F071B023A473CED0",
+				"6E7A9BC2D671798C20EB5980");
+			shellPath = "/bin/sh";
+			shellScript = "make\ -C\ /Users/juanmanuelmartinezromero/Documents/Universidad\ Nacional\ De\ Colombia/Google\ Drive/Ensimag/Graphique\ 3D/TP3\ -f\ \'cg3D.pbproj/qt_preprocess.mak\'";
+		};
+		C29B8785722055ED95EF7B57 = {
+			buildActionMask = 2147483647;
+			files = (
+				"A065A5590CA74531B3084830",
+				"AFE57829E6A9D7746D3D7308",
+				"C22F12D9E6F79DB4D9F4B194",
+				"2B093CA6F071B023A473CED0",
+				"6E7A9BC2D671798C20EB5980");
+			isa = PBXSourcesBuildPhase;
+			name = "Build Sources";
+		};
+		65B8A5DB6929A8D8919440E4 = {
+			isa = PBXFrameworkReference;
+			name = "Glut.framework";
+			path = "/System/Library/Frameworks/Glut.framework";
+			refType = 0;
+		};
+		20334178296EB90B506373C5 = {
+			fileRef = "65B8A5DB6929A8D8919440E4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7F72F0EA462AFE5D6C6F8854 = {
+			isa = PBXFrameworkReference;
+			name = "QGLViewer.framework";
+			path = "/Users/juanmanuelmartinezromero/Library/Frameworks/QGLViewer.framework";
+			refType = 0;
+		};
+		0128A6041B4CC49102315E79 = {
+			fileRef = "7F72F0EA462AFE5D6C6F8854";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		DA18A6831232F53228631AD1 = {
+			isa = PBXFrameworkReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+		};
+		BCEF71E1EDFB18DA77DC750B = {
+			fileRef = "DA18A6831232F53228631AD1";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C6766F86E49E9C8701C8E637 = {
+			isa = PBXFrameworkReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+		};
+		0C6D4628EE0B0D1479A20551 = {
+			fileRef = "C6766F86E49E9C8701C8E637";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8EE92F8FA333C9E415C5B34E = {
+			isa = PBXFrameworkReference;
+			name = "QtXml.framework";
+			path = "/Library/Frameworks/QtXml.framework";
+			refType = 0;
+		};
+		C2643FEB592DBFD1429BE4E1 = {
+			fileRef = "8EE92F8FA333C9E415C5B34E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7BC2E65A5E699A5E5D834CA2 = {
+			isa = PBXFrameworkReference;
+			name = "QtCore.framework";
+			path = "/Library/Frameworks/QtCore.framework";
+			refType = 0;
+		};
+		069D05B0128AE5DC7EE31738 = {
+			fileRef = "7BC2E65A5E699A5E5D834CA2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C374004D45E01156F931B37D = {
+			isa = PBXFrameworkReference;
+			name = "QtOpenGL.framework";
+			path = "/Library/Frameworks/QtOpenGL.framework";
+			refType = 0;
+		};
+		450A0D11527AF164AEFE7377 = {
+			fileRef = "C374004D45E01156F931B37D";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9B36DA7E32F0304E780E7972 = {
+			isa = PBXFrameworkReference;
+			name = "QtGui.framework";
+			path = "/Library/Frameworks/QtGui.framework";
+			refType = 0;
+		};
+		501667F26B3C1FF6767A7C12 = {
+			fileRef = "9B36DA7E32F0304E780E7972";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ED1E82605DD74B483AF3C982 = {
+			children = (
+				"65B8A5DB6929A8D8919440E4",
+				"7F72F0EA462AFE5D6C6F8854",
+				"DA18A6831232F53228631AD1",
+				"C6766F86E49E9C8701C8E637",
+				"8EE92F8FA333C9E415C5B34E",
+				"7BC2E65A5E699A5E5D834CA2",
+				"C374004D45E01156F931B37D",
+				"9B36DA7E32F0304E780E7972");
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		2A1043669E6E5A7426EA502A = {
+			buildActionMask = 2147483647;
+			files = (
+				"20334178296EB90B506373C5",
+				"0128A6041B4CC49102315E79",
+				"BCEF71E1EDFB18DA77DC750B",
+				"0C6D4628EE0B0D1479A20551",
+				"C2643FEB592DBFD1429BE4E1",
+				"069D05B0128AE5DC7EE31738",
+				"450A0D11527AF164AEFE7377",
+				"501667F26B3C1FF6767A7C12");
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		3787F99312C85FF0073FD7BA = {
+			buildActionMask = 2147483647;
+			files = (
+				B168B7F0A229858F2D964715,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		F6069D5A5DA8AA28EDB8B3C6 = {
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			dstPath = "/Users/juanmanuelmartinezromero/Documents/Universidad/ Nacional/ De/ Colombia/Google/ Drive/Ensimag/Graphique/ 3D/TP3";
+			dstSubfolderSpec = 0;
+			files = (
+"07E0DFA73EB56DCB9E28CDD9");
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07E0DFA73EB56DCB9E28CDD9 = {
+			fileRef = "3359AC3C777525F1416C1A29";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		05596AB53D8D521C69802C27 = {
+			children = (
+				"FB61758D0F0FDA4BA867C3D5",
+				"883D7615C4D2DE3FA1218F12",
+				"7CABE3C80E79AD2B307756D2",
+				"ED1E82605DD74B483AF3C982");
+			isa = PBXGroup;
+			name = "cg3D";
+			path = "";
+			refType = 4;
+		};
+		3359AC3C777525F1416C1A29 = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "cg3D.app";
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		068F80C7519D0528FB08E821 = {
+			children = (
+				"3359AC3C777525F1416C1A29");
+			isa = PBXGroup;
+			name = "Products";
+			refType = 4;
+		};
+		2693F0FA027E9DD835EBF514 = {
+			buildPhases = (
+				"D7BA7D76DAB5DD13389D6332",
+				"A0A52A2ADF7A1E2A99738674",
+				"F6069D5A5DA8AA28EDB8B3C6",
+				"C29B8785722055ED95EF7B57",
+				"2A1043669E6E5A7426EA502A",
+				"3787F99312C85FF0073FD7BA");
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Library/Frameworks/QtCore.framework/Versions/4/Headers",
+					"/usr/include/QtCore",
+					"/Library/Frameworks/QtGui.framework/Versions/4/Headers",
+					"/usr/include/QtGui",
+					"/Library/Frameworks/QtOpenGL.framework/Versions/4/Headers",
+					"/usr/include/QtOpenGL",
+					"/Library/Frameworks/QtXml.framework/Versions/4/Headers",
+					"/usr/include/QtXml",
+					"/usr/include",
+					"/Users/juanmanuelmartinezromero/Library/Frameworks/QGLViewer.framework/Versions/2/Headers",
+					"/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/System/Library/Frameworks/AGL.framework/Headers",
+					".moc",
+					"/usr/local/include",
+					"/System/Library/Frameworks/CarbonCore.framework/Headers",
+					"/usr/local/Qt4.8/mkspecs/macx-xcode");
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/Frameworks",
+					"/System/Library/Frameworks/",
+					"/Users/juanmanuelmartinezromero/Library/Frameworks");
+				OPTIMIZATION_CFLAGS = (
+					);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-DQT_NO_DEBUG",
+					"-DQT_XML_LIB",
+					"-DQT_OPENGL_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+					"-DQT_SHARED");
+				LEXFLAGS = "";
+				YACCFLAGS = "-d";
+				OTHER_REZFLAGS = "";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "";
+				PREBINDING = NO;
+				INFOPLIST_FILE = "Info.plist";
+				BUILD_ROOT = "/Users/juanmanuelmartinezromero/Documents/Universidad Nacional De Colombia/Google Drive/Ensimag/Graphique 3D/TP3";
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-L/Library/Frameworks",
+						"-F/Library/Frameworks",
+						"-F/Users/juanmanuelmartinezromero/Library/Frameworks");
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.4";
+				ARCHS = "x86_64";
+				WRAPPER_SUFFIX = "app";
+				PRODUCT_NAME = "cg3D";
+			};
+			conditionalBuildSettings = {
+			};
+			dependencies = (
+				);
+			productReference = "3359AC3C777525F1416C1A29";
+			shouldUseHeadermap = 1;
+			isa = PBXApplicationTarget;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>qglviewer.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+    <key>CFBundleGetInfoString</key>
+	<string>Created by Qt/QMake</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>cg3D</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.cg3D</string>
+	<key>NOTE</key>
+	<string>This file was generated by Qt/QMake.</string>
+</dict>
+</plist>
+";
+			name = "cg3D";
+			productName = "cg3D";
+			startupPath = "<<ProjectDirectory>>";
+		};
+		8D0921A599A626D1569D9498 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+			};
+			isa = "PBXBuildStyle";
+			name = "Development";
+		};
+		4CFAD8B741C7FF5A47E1CF98 = {
+			buildRules = (
+				);
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+			};
+			isa = "PBXBuildStyle";
+			name = "Deployment";
+		};
+		91B15E841AA80083484172DE = {
+			buildStyles = (
+				"4CFAD8B741C7FF5A47E1CF98");
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = "05596AB53D8D521C69802C27";
+			projectDirPath = "";
+			targets = (
+				"2693F0FA027E9DD835EBF514");
+		};
+	};
+	rootObject = "91B15E841AA80083484172DE";
+}
