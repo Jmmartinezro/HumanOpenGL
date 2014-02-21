@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="89">
+<configurationDescriptor version="90">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
-    <df root="." name="TP3">
+    <df root="." name="0">
+      <df name="cg3D.app">
+        <df name="Contents">
+          <df name="MacOS">
+          </df>
+          <df name="Resources">
+          </df>
+        </df>
+      </df>
+      <df name="cg3D.pbproj">
+      </df>
       <in>cube.cpp</in>
       <in>cube.h</in>
       <in>cylinder.cpp</in>
@@ -19,7 +29,7 @@
     <conf name="Default" type="0">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <platform>2</platform>
+        <platform>4</platform>
       </toolsSet>
       <compile>
         <compiledirpicklist>
@@ -54,7 +64,7 @@
         </runcommandpicklist>
         <runcommand>"${OUTPUT_PATH}"</runcommand>
         <rundir>.</rundir>
-        <buildfirst>false</buildfirst>
+        <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
         <remove-instrumentation>0</remove-instrumentation>
         <environment>

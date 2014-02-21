@@ -18,6 +18,7 @@ class Human : public Renderable
 		void drawImmediate();
                 void drawHead();
                 void drawTorso();
+                void drawRightUpperArm();
 };
 
 #endif
